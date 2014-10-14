@@ -19,7 +19,7 @@ import org.apache.nutch.util.NutchConfiguration;
 
 public class hwz implements URLFilter {
 
-    private final static Log LOG = LogFactory.getLog(Rules.class);
+    private final static Log LOG = LogFactory.getLog(hwz.class);
     private final static String RULE = "(http)(:)(\\/)(\\/)(forums\\.hardwarezone\\.com\\.sg)(\\/)(money)(-)(mind)(-)(210)(\\/)(.*?(\\.)(html))*"; 
 
     private Configuration conf;
