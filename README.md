@@ -14,3 +14,8 @@ Getting Started
         <ant dir="urlfilter-hwz" target="clean"/>
 
 3. Modify conf/nutch-site.xml to include urlfilter-hwz plugin
+
+         <property>
+          <name>plugin.includes</name>
+          <value>urlfilter-hwz|parse-(html|tika)|urlnormalizer-(pass|regex|basic)</value>
+         </property>
